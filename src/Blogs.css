@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+  }
+  
+  
+  /* Centered text */
+  .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.column-b {
+    float: left;
+    width: 33.33%;
+    align-content: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row-b:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row h1{
+    padding-top: 100px;
+  }
+  .column-b img{
+    padding-top: 30px;
+    width: 500px;
+    height: 500px;
+    padding-left: 20px;
+  }
+
+  .column-b a{
+    color: black;
+  }
